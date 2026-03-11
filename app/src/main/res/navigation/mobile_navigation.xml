@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.study.barakahfocus.presentation.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/navigation_timer"
+        android:name="com.study.barakahfocus.presentation.timer.TimerFragment"
+        android:label="@string/title_timer"
+        tools:layout="@layout/fragment_timer" />
+    <fragment
+        android:id="@+id/navigation_subjects"
+        android:name="com.study.barakahfocus.presentation.subjects.SubjectsFragment"
+        android:label="@string/title_subjects"
+        tools:layout="@layout/fragment_subjects" />
+    <fragment
+        android:id="@+id/navigation_tasks"
+        android:name="com.study.barakahfocus.presentation.tasks.TasksFragment"
+        android:label="@string/title_tasks"
+        tools:layout="@layout/fragment_tasks" />
+    <fragment
+        android:id="@+id/navigation_flashcards"
+        android:name="com.study.barakahfocus.presentation.flashcards.FlashcardListFragment"
+        android:label="@string/title_flashcards"
+        tools:layout="@layout/fragment_flashcard_list" />
+    <fragment
+        android:id="@+id/navigation_notes"
+        android:name="com.study.barakahfocus.presentation.notes.NotesFragment"
+        android:label="@string/title_notes"
+        tools:layout="@layout/fragment_notes" />
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.study.barakahfocus.presentation.calendar.CalendarFragment"
+        android:label="@string/title_calendar"
+        tools:layout="@layout/fragment_calendar" />
+    <fragment
+        android:id="@+id/navigation_routine"
+        android:name="com.study.barakahfocus.presentation.routine.RoutineFragment"
+        android:label="@string/title_routine"
+        tools:layout="@layout/fragment_routine" />
+    <fragment
+        android:id="@+id/navigation_usage"
+        android:name="com.study.barakahfocus.presentation.usage.UsageFragment"
+        android:label="@string/title_usage"
+        tools:layout="@layout/fragment_usage" />
+    <fragment
+        android:id="@+id/navigation_focus"
+        android:name="com.study.barakahfocus.presentation.focus.FocusFragment"
+        android:label="@string/title_focus"
+        tools:layout="@layout/fragment_focus" />
+    <fragment
+        android:id="@+id/navigation_rewards"
+        android:name="com.study.barakahfocus.presentation.rewards.RewardsFragment"
+        android:label="@string/title_rewards"
+        tools:layout="@layout/fragment_rewards" />
+    <fragment
+        android:id="@+id/navigation_prayers"
+        android:name="com.study.barakahfocus.presentation.prayers.PrayerFragment"
+        android:label="@string/title_prayers"
+        tools:layout="@layout/fragment_prayers" />
+    <fragment
+        android:id="@+id/navigation_alarm"
+        android:name="com.study.barakahfocus.presentation.alarm.AlarmFragment"
+        android:label="@string/title_alarm"
+        tools:layout="@layout/fragment_alarm" />
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.study.barakahfocus.presentation.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
